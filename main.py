@@ -9,11 +9,6 @@ def clear_screen():
     else:
         os.system('clear')
 
-    #egzample variables
-    '''a = 120000
-    n=20000
-    i=0'''
-
 
 # logic functions
 
@@ -54,6 +49,11 @@ def toNumber():
 
     except ValueError:
         print("Wrong data type in, try again!")
+
+def fromNumber():
+
+    print('from number function, will appear here later')
+
 
 
 print('compound interest calculator in python\n')
