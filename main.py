@@ -27,10 +27,10 @@ def toNumber():
 
                 interesPercent = percent / 100 + 1
 
+                years = 0
+
                 #algorithm
                 while( currentMoney < endMoney):
-
-                    years = 0
                     
                     currentMoney = currentMoney * interesPercent
                     years = years + 1
