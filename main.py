@@ -118,8 +118,5 @@ def menu():
         print("Wrong data typed in or wrong number chosen, try again! \n")
         menu()
     
-    print('--------------------\n')
-
 #start
-
 menu()
